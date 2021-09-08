@@ -37,16 +37,16 @@ const Navbar = () => {
             </a>
           </Link>
           <div className="icon">
-            <Button className="mx-2" onClick={() => searchToggle()}>
+            <Button className="mx-1" onClick={() => searchToggle()}>
               <FaSearch />
             </Button>
-            <Button className="mx-2 " onClick={() => themeToggle()}>
+            <Button className="mx-1 " onClick={() => themeToggle()}>
               {(!themes && <FaSun />) || <FaMoon />}
             </Button>
-            <Button className="mx-2">
+            <Button className="mx-1">
               <FaShoppingCart />
             </Button>
-            <Button className="mx-2" onClick={() => sidebarToggle()}>
+            <Button className="mx-1" onClick={() => sidebarToggle()}>
               {(!sidebar && <FaBars />) || <FaTimes />}
             </Button>
           </div>
