@@ -52,7 +52,7 @@ a:hover{
 }
    /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 /* Track */
@@ -63,8 +63,8 @@ a:hover{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
+  background: gray; 
+  border-radius: 7px;
 }
 
 /* Handle on hover */
